@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/irush/IdeaProjects/way2automation">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="checkSlider"/>
+                    <include name="findHeader"/>
+                    <include name="findNavigation"/>
+                    <include name="findCertification"/>
+                    <include name="findFooter"/>
+                    <include name="checkScrollMenu"/>
+                </methods>
+            </class>
+            <class name="tests.NavigateTest">
+                <methods>
+                    <include name="navigate"/>
+                </methods>
+            </class>
+            <class name="tests.LoginPageTest">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
